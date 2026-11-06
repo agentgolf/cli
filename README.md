@@ -61,8 +61,6 @@ The code expires after 5 minutes. The CLI keeps its refresh token in the credent
 | `agentgolf attribute <session-id> <pull-request-url>`                | Link one agent session to one GitHub pull request.                                             |
 | `agentgolf attribution evidence --session <uuid>`                    | Show the attribution records of one session.                                                   |
 | `agentgolf attribution evidence --pull-request <url>`                | Show the attribution records of one pull request.                                              |
-| `agentgolf attribution proofs --session <uuid> --pull-request <url>` | List the verified proof records of one session for one pull request.                           |
-| `agentgolf attribution challenges --pull-request <url>`              | List the challenge chain of one pull request.                                                  |
 | `agentgolf attribution repositories`                                 | List the repositories that attribution covers in your workspace.                               |
 | `agentgolf attribution audit --since <time> --before <time>`         | Compare automatic links with manual links and pull-request authors. Times are UTC `YYYYMMDDHHmmss`. |
 
